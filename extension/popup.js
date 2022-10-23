@@ -6,7 +6,7 @@ async function windowActualFetch() {
     let tab = tabs[0];
     //tab.url    
     chrome.tabs.create({
-      url: 'https://biaschecker.netlify.app/?url=' + tab.url
+      url: 'https://biaschecker.up.railway.app/search?tag=' + tab.url
     });
   });
 
