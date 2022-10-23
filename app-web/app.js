@@ -1,10 +1,15 @@
+const cheerio = require('./cheerio');
+const request = require('./request');
+const robotsParser = require('./robots-txt-parser');
+
 setTimeout(async () => {
   let queryStr = window.location.search;
   let urlParams = new URLSearchParams(queryStr);
   let param = urlParams.get("url");
   let datas = [];
   // Se hace una petición a la URL que contiene los datos
-  let res;
+  // scrapping
+  /* let res;
   try {
     res = await fetch(param);
   } catch (error) {
@@ -29,8 +34,8 @@ setTimeout(async () => {
     text = doc.body.textContent || '';
   // Limpiamos los espacios
   text = text.trim().replace(/\s{2,}/g, ' ') */
-  console.log(datas);
-
+  //console.log(datas);
+ 
   const threshold = 0.9;
 
   // Load the model. Users optionally pass in a threshold and an array of
