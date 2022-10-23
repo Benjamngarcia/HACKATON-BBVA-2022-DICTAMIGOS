@@ -13,6 +13,10 @@ npm run dev
 ```
 Open http://localhost:5000/
 
+## Deploy 📦
+The project is deployed with Railway, you can find it running at:
+https://biaschecker.up.railway.app/
+
 ## Built with 🛠️
 
 - [Express](https://www.npmjs.com/package/express)
