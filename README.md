@@ -18,6 +18,8 @@ Open http://localhost:5000/
 The project is deployed with Railway, you can find it running at:
 https://biaschecker.up.railway.app/
 
+You can see an example at: https://biaschecker.up.railway.app/search?tag=https://www.larepublica.co/
+
 ## Built with 🛠️
 
 - [Express](https://www.npmjs.com/package/express)
