@@ -28,9 +28,12 @@ app.get('/search', async (req, res) => {
         request(tag, (err, response, html) => {
             if (response.statusCode === 200) {
                 const $ = cheerio.load(html);
+                $('script').remove();
+                $('noscript').remove();
+                $('style').remove();
                 $('body').each((i, el) => {
                     //get all text into body tag
-                    const content = $(el).text()
+                    const content = $(el).find("*").text()
 
                     let data = {
                         content
