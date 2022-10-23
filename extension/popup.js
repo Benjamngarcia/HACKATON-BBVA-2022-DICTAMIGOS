@@ -6,7 +6,7 @@ async function windowActualFetch() {
     let tab = tabs[0];
     //tab.url    
     chrome.tabs.create({
-      url: 'file:///C:/Users/52554/Documents/Development/Projects/HACKATON-BBVA-2022-DICTAMIGOS/app-web/index.html?url=' + tab.url
+      url: 'https://biaschecker.netlify.app/?url=' + tab.url
     });
   });
 
