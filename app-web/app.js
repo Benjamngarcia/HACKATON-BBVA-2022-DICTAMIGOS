@@ -34,7 +34,7 @@ app.get('/search', async (req, res) => {
                 $('style').remove();
                 $('body').each((i, el) => {
                     //get all text into body tag
-                    const content = $(el).find("*").text()
+                    const content = $(el).text()
 
                     let data = {
                         content
