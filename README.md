@@ -1,5 +1,6 @@
 # DICTAMIGOS Hackathon BBVA 2022 🌐
-Diversity and inclusion challenge, we must identify gender bias in Internet content.
+Diversity and inclusion challenge, we must identify gender bias in Internet content.  
+Create a browser extension that can identify if the content we are consuming in this moment (social networks, blogs, text articles, etc.) have gender biases.
 
 ## Installation requirements 📋
 - Node v. 14.17.1 or higher.
