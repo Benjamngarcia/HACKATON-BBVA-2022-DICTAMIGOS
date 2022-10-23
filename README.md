@@ -15,10 +15,11 @@ npm run dev
 Open http://localhost:5000/
 
 ## Deploy 📦
-The project is deployed with Railway, you can find it running at:
-https://biaschecker.up.railway.app/
 
-You can see an example at: https://biaschecker.up.railway.app/search?tag=https://www.larepublica.co/
+**The extension cannot be installed at the moment because it's subject to a Google approval process.**  
+The project is deployed with Railway, you can find it running at:
+https://biaschecker.up.railway.app/  
+You can see an example like in the video at: : https://biaschecker.up.railway.app/search?tag=https://www.larepublica.co/
 
 ## Built with 🛠️
 
